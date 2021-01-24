@@ -1,0 +1,108 @@
+$font-family-Open-Sans: 'Open Sans', sans-serif;
+$animation-delay: 0.2s;
+
+// Colors palette RGB
+:root {
+  --color-purple-500: rgb(126, 9, 251);
+  --color-purple-500-01: rgba(126, 9, 251, 0.1);
+  --color-purple-500-07: rgba(126, 9, 251, 0.7);
+  --color-purple-500-05: rgba(126, 9, 251, 0.5);
+  --color-purple-400: rgba(126, 9, 251, 0.9);
+  --color-purple-pink-500: rgb(181, 47, 245);
+  --color-purple-pink-500-01: rgba(181, 47, 245, 0.1);
+  --color-pink-500: rgb(217, 66, 241);
+  --color-light-blue-500: rgb(104, 225, 224);
+  --color-light-blue-500-01: rgba(104, 225, 224, 0.1);
+  --color-light-blue-100: rgb(243, 255, 255);
+  --color-yellow-500: rgb(242, 187, 68);
+  --color-yellow-500-01: rgba(242, 187, 68, 0.1);
+  --color-black-real: rgb(0, 0, 0);
+  --color-black-500: rgb(45, 45, 44);
+  --color-black-500-: rgb(45, 45, 44);
+  --color-coral-500: rgb(235, 88, 92);
+  --color-white-500: rgb(255, 255, 255);
+  --color-white-500-02: rgba(255, 255, 255, 0.2);
+  --color-grey-light-500: rgb(211, 223, 227);
+
+  --color-text-dark-100: rgb(45, 45, 44);
+  --color-text-dark-80: rgba(45, 45, 44, 0.8);
+  --color-text-dark-70: rgba(45, 45, 44, 0.7);
+  --color-text-dark-60: rgba(45, 45, 44, 0.6);
+  --color-text-white-100: rgb(255, 255, 255);
+  --color-text-white-70: rgba(255, 255, 255, 0.7);
+  --color-text-white-60: rgba(255, 255, 255, 0.6);
+  --accent-color-500: rgb(126, 9, 251);
+
+  --nav-background-color: rgba(255, 255, 255, 0.9);
+  --box-shadow-base: rgba(28, 30, 36, 0.16);
+}
+
+// Breakpoints
+$phone-320: 320px;
+$phone-360: 360px;
+$phone-375: 375px;
+$phone-414: 414px;
+$tablet-768: 768px;
+$tablet-992: 992px;
+$desktop-1200: 1200px;
+$desktop-1366: 1366px;
+$desktop-1920: 1920px;
+$desktop-2560: 2560px;
+
+// Grid breakpoints for mixins
+$grid-breakpoints: (
+ sm: 0,
+ sm360: 360px,
+ sm375: 375px,
+ sm414: 414px,
+ md: 768px,
+ lg: 992px,
+ xl: 1200px,
+ xxl: 1366px,
+ xxxl: 1920px,
+ xxxxl: 2560px
+);
+
+// Typography
+$font-size-12: 1.2rem;
+$font-size-14: 1.4rem;
+$font-size-16: 1.6rem;
+$font-size-18: 1.8rem;
+$font-size-20: 2rem;
+$font-size-22: 2.2rem;
+$font-size-24: 2.4rem;
+$font-size-26: 2.6rem;
+$font-size-28: 2.8rem;
+$font-size-32: 3.2rem;
+$font-size-35: 3.5rem;
+$font-size-40: 4rem;
+$font-size-45: 4.5rem;
+$font-size-60: 6rem;
+
+$font-weight-400: 400;
+$font-weight-700: 700;
+$font-weight-800: 800;
+
+// Border radius
+$border-radius-4: 0.4rem;
+$border-radius-12: 1.2rem;
+
+//// Colors palette HEX
+//:root {
+//  --color-purple-500: #7E09FB;
+//  --color-purple-pink-500: #B52FF5;
+//  --color-pink-500: #D942F1;
+//  --color-light-blue-500: #68e1e0;
+//  --color-light-blue-100: #F3FFFF;
+//  --color-yellow-500: #F2BB44;
+//  --color-black-500: #2D2D2C;
+//  --color-coral-500: #EB585C;
+//  --color-white-500: #FFFFFF;
+//
+//  --text-color-dark-100: #2D2D2C;
+//  --text-color-dark-80: #555655;
+//  --text-color-dark-60: #A3A4A3;
+//  --text-color-accent-100: #7E09FB;
+//
+//  --nav-background-color: rgba(255, 255, 255, 0.9);
+//}

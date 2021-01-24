@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 62,5% z 16px = 10px = 1rem
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $font-family-Open-Sans;
+  font-weight: $font-weight-400;
+  color: var(--color-black-500);
+  background-color: var(--color-white-500);
+  font-size: 62.5%; // 1rem = 10px;
+  line-height: 1.33;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100vw;
+  height: 2000px;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--color-purple-500);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-purple-500);
+    text-decoration: none;
+  }
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  @media (min-width: $desktop-1366) {
+    max-width: 1240px;
+  }
+}
